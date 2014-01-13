@@ -1,0 +1,17 @@
+title: Facebook OAuth
+description: Enable users to authenticate user with Facebook
+icon: facebook-sign
+settings:
+  intro: Please enter your Facebook Application details
+  fields:
+    apiKey:
+      type: text
+      title: Facebook App ID
+      required: true
+    secret:
+      type: text
+      title: Facebook App Secret
+      required: true
+    scope:
+      type: text
+      title: Facebook access scope
